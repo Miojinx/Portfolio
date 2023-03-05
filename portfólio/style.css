@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body{
+   
+    font-family: 'Merriweather Sans', sans-serif;
+}
+div{
+    position: absolute;
+    
+    box-shadow: 2px 2px 2px 1px
+        rgba(0, 0, 0, 0.2);
+}
+/* 
+ background-color: #330000;
+    color: #C53333;
+    div
+background-color: #5A0000; */
+
+#display
+
+#right-side{
+    display: inline;
+}
