@@ -49,9 +49,14 @@ aside{
 }
 
 #informations{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     background-color: darkorchid;
     width: 35%;
     font-size: 0.8rem;
+    height: 35%;
 }
 
 #technologies{
