@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    background-color: darkred;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Merriweather Sans', sans-serif;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    display: flex;
+}
+/* 
+ background-color: #330000;
+    color: #C53333;
+    div:
+background-color: #5A0000; */
+
+a{
+    text-decoration: none;
+}
+
+#right-side{
+    background-color: aqua;
+    margin-left: 5rem;
+    width: 50rem;
+}
+#left-side{
+    background-color: red;
+    padding: 3rem 4rem 3rem 4rem;
+}
+
+#profile{
+    background-color: lavender;
+    /* width: 20rem; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 2rem;
+    padding-top: 2rem;
+    border-radius: 20px;
+
+}
+
+#container-profile{
+    padding-top: 30px;
+    height: 8rem;
+    width: 20rem;
+}
+#container-profile h2{
+    background-color: #C53333;
+    font-size: 24px;
+}
+#container-profile p{
+    font-size: 14px;
+    padding: 10px;
+}
+
+#informations{
+    background-color: cornflowerblue;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.links-info{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+}
+.links-info a, .links-info a:visited, .links-info p{
+    transition: 0.3s;
+    color: #C53333;
+}
+
+.links-info a:hover{
+    opacity: 0.7;
+}
+
+#technologies{
+    background-color: darkgoldenrod;
+    margin-bottom: 2rem;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.container-technologies{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 15px 0px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.content-technologies{
+    width: 25%;
+    min-width: 50px;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+#experiences{
+    background-color: maroon;
+    margin-bottom: 2rem;
+}
+
+#education{
+    background-color: hotpink;
+    margin-bottom: 2rem;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.container-education{
+    padding: 20px;
+    padding-left: 50px;
+}
+.container-education li{
+    padding-top: 15px;
+}
+
+.content-location-education{
+    padding-bottom: 15px
+}
+
+#my-projects{
+    background-color: orange;
+}
+
+#projects{
+    display: flex;
+    background-color: brown;
+}
+
+#left-project{
+    background-color: darkgreen;
+}
+
+#right-project{
+    background-color: darkslategrey;
+}
+
+#recent-posts{
+    background-color: darkviolet;
+}
+
+#post{
+    background-color: darkslategrey;
+}
+
+#erik-icon{
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    border: solid rgba(17, 194, 47, 0.473);
+}

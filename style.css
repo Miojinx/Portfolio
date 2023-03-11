@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+body{
+    display: flex;
+}
+
+aside{
+    background-color: aqua;
+    margin: 2vw 2vw 2vw 2vw;
+}
+
+#profile{
+    box-sizing: border-box;
+    background-color: darkgoldenrod;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 35%;
+    height: 35%;
+    border-radius: 7.5%;
+    margin-bottom: 3%;
+}
+
+#container-profile{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    color: white;
+}
+
+#container-profile p{
+    font-size: 0.8rem;
+}
+
+#erik-icon{
+    object-fit:cover;
+    width: 40%;
+    border-radius: 50%;
+    border: 1px solid white;
+    padding: 5px;
+}
+
+#informations{
+    background-color: darkorchid;
+    width: 35%;
+    font-size: 0.8rem;
+}
+
+#technologies{
+    background-color: teal;
+}
+
+#experiences{
+background-color: silver;
+}
+
+#education{
+    background-color: tomato;
+}
+
+main{
+    background-color: red;
+}
+
+#my-projects{
+    background-color: orange;
+}
+
+#projects{
+    display: flex;
+    background-color: brown;
+}
+
+#left-project{
+    background-color: darkgreen;
+}
+
+#right-project{
+    background-color: darkslategrey;
+}
+
+#recent-posts{
+    background-color: darkviolet;
+}
+
+#post{
+    background-color: darkslategrey;
+}
