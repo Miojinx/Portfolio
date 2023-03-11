@@ -11,6 +11,9 @@ body{
 }
 
 aside{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
     background-color: aqua;
     margin: 2vw 2vw 2vw 2vw;
 }
@@ -27,7 +30,7 @@ aside{
     height: 35%;
     border-radius: 20px;
     margin-bottom: 3%;
-    padding: 1%;
+    padding: 3%;
 }
 
 #container-profile{
@@ -35,6 +38,10 @@ aside{
     flex-direction: column;
     margin-top: 5%;
     color: white;
+}
+
+#container-profile h2{
+    font-size: 1.35rem;
 }
 
 #container-profile p{
@@ -52,15 +59,15 @@ aside{
 #informations{
     box-sizing: border-box;
     padding: 1%;
+    padding: 4%;
     display: flex;
     justify-content: center;
     flex-direction: column;
     background-color: darkorchid;
     color: white;
     width: 35%;
-    gap: 7%;
+    height: 40%;
     font-size: 0.8rem;
-    height: 25%;
     border-radius: 20px;
     padding-left: 4%;
     margin-bottom: 3%;
@@ -68,6 +75,7 @@ aside{
 
 .links-info{
     display: flex;
+    padding: 3%;
     align-items: center;
 }
 
@@ -114,8 +122,24 @@ background-color: silver;
 }
 
 #education{
+    box-sizing: border-box;
     background-color: tomato;
     width: 35%;
+    padding: 2%;
+    border-radius: 30px;
+
+}
+
+#education h2{
+    margin-bottom: 2%;
+}
+
+#education ul{
+    padding-left: 10%;
+}
+
+#education li{
+    margin-top: 2%;
 }
 
 #education p{
