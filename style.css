@@ -25,7 +25,7 @@ aside{
     text-align: center;
     width: 35%;
     height: 35%;
-    border-radius: 7.5%;
+    border-radius: 20px;
     margin-bottom: 3%;
     padding: 1%;
 }
@@ -61,7 +61,7 @@ aside{
     gap: 7%;
     font-size: 0.8rem;
     height: 25%;
-    border-radius: 9%;
+    border-radius: 20px;
     padding-left: 4%;
     margin-bottom: 3%;
 }
@@ -81,8 +81,9 @@ aside{
     background-color: teal;
     width: 35%;
     padding: 2%;
-    border-radius: 7.5%;
+    border-radius: 20px;
     padding-top: 4%;
+    margin-bottom: 3%;
 }
 
 .container-technologies{
@@ -91,18 +92,21 @@ aside{
     font-size: 0.8rem;
     justify-content: space-around;
     flex-wrap: wrap;
-    
+    gap: 2%
 }
 
 .content-technologies{
     text-align: center;
     width: 30%;
-    margin-bottom: 4%;
-    border-radius: 30%;
+    padding: 1%;
+    margin-bottom: 3%;
+    border-radius: 20px;
+    overflow: hidden;
     background-color:coral;
 }
 
 .content-technologies p{
+    padding: 3%;
 }
 
 #experiences{
@@ -111,6 +115,11 @@ background-color: silver;
 
 #education{
     background-color: tomato;
+    width: 35%;
+}
+
+#education p{
+    font-size: 0.8rem;
 }
 
 main{
