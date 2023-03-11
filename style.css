@@ -27,6 +27,7 @@ aside{
     height: 35%;
     border-radius: 7.5%;
     margin-bottom: 3%;
+    padding: 1%;
 }
 
 #container-profile{
@@ -50,20 +51,23 @@ aside{
 
 #informations{
     box-sizing: border-box;
+    padding: 1%;
     display: flex;
     justify-content: center;
     flex-direction: column;
     background-color: darkorchid;
     color: white;
     width: 35%;
+    gap: 7%;
     font-size: 0.8rem;
     height: 25%;
     border-radius: 9%;
     padding-left: 4%;
+    margin-bottom: 3%;
 }
 
-#links-info{
-    display: inline;
+.links-info{
+    display: flex;
     align-items: center;
 }
 
@@ -73,7 +77,32 @@ aside{
 }
 
 #technologies{
+    box-sizing: border-box;
     background-color: teal;
+    width: 35%;
+    padding: 2%;
+    border-radius: 7.5%;
+    padding-top: 4%;
+}
+
+.container-technologies{
+    display: flex;
+    padding: 3%;
+    font-size: 0.8rem;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+.content-technologies{
+    text-align: center;
+    width: 30%;
+    margin-bottom: 4%;
+    border-radius: 30%;
+    background-color:coral;
+}
+
+.content-technologies p{
 }
 
 #experiences{
