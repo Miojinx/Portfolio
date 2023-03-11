@@ -54,9 +54,22 @@ aside{
     justify-content: center;
     flex-direction: column;
     background-color: darkorchid;
+    color: white;
     width: 35%;
     font-size: 0.8rem;
-    height: 35%;
+    height: 25%;
+    border-radius: 9%;
+    padding-left: 4%;
+}
+
+#links-info{
+    display: inline;
+    align-items: center;
+}
+
+#informations a, #informations a:visited{
+    color: white;
+    text-decoration: none;
 }
 
 #technologies{
