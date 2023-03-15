@@ -168,6 +168,8 @@ main{
     font-size: 0.8rem;
 }
 
+/* style of project header */
+
 #my-projects{
     display: flex;
     background-color: orange;
@@ -191,8 +193,10 @@ main{
     background-color: brown;
     align-items: center;
     justify-content: space-between;
-
+    
 }
+
+/* style of projects */
 
 .project{
     font-size: 0.8rem;
@@ -204,9 +208,16 @@ main{
     justify-content: center;
     padding: 1vw;
     gap: 1vw 0;
+    margin-bottom: 2vw;
 }
-.project a{
+.project a, .project a:visited{
     font-size: 1.35rem;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.project a:hover{
+    opacity: 0.7;
 }
 
 .title-project{
@@ -216,7 +227,6 @@ main{
 
 .bottom-of-project{
     background-color: brown;
-    border: 1px solid red;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -246,9 +256,13 @@ main{
     border-radius: 360px;
 }
 
+/* style of recent posts header */
+
 #recent-posts{
     background-color: darkviolet;
 }
+
+/* style of posts */
 
 #post{
     background-color: darkslategrey;
