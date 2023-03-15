@@ -5,6 +5,7 @@
     padding: 0;
     font-family: 'Merriweather Sans', sans-serif;
     box-sizing: border-box;
+    font: 0.8rem;
 }
 
 body{
@@ -27,6 +28,8 @@ main{
     box-sizing: border-box;
     margin: 2vw 2vw 2vw 2vw;
 }
+
+/* style of profile div */
 
 #profile{
     background-color: darkgoldenrod;
@@ -67,6 +70,8 @@ main{
     padding: 5px;
 }
 
+/* style of informations div */
+
 #informations{
     box-sizing: border-box;
     padding: 2vw;
@@ -103,6 +108,8 @@ main{
     opacity: 0.7;
 }
 
+/* style of technologies div */
+
 #technologies{
     box-sizing: border-box;
     background-color: teal;
@@ -133,6 +140,8 @@ main{
 .content-technologies p{
     padding: 3%;
 }
+
+/* style of education div */
 
 #education{
     box-sizing: border-box;
@@ -186,9 +195,55 @@ main{
 }
 
 .project{
+    font-size: 0.8rem;
     background-color: darkgreen;
     width: 48%;
     border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1vw;
+    gap: 1vw 0;
+}
+.project a{
+    font-size: 1.35rem;
+}
+
+.title-project{
+    display: flex;
+    align-items: center;
+}
+
+.bottom-of-project{
+    background-color: brown;
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.git-info-project{
+    background-color: rebeccapurple;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5vw;
+}
+
+.main-language{
+    background-color: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5vw;
+}
+
+.color-project{
+    background-color: aquamarine;
+    width: 10px;
+    height: 10px;
+    border: 1px solid black;
+    border-radius: 360px;
 }
 
 #recent-posts{
