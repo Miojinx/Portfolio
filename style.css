@@ -177,7 +177,7 @@ main{
     font-size: 0.8rem;
 }
 
-#projects{
+#container-projects{
     display: flex;
     background-color: brown;
     align-items: center;
@@ -185,14 +185,8 @@ main{
 
 }
 
-#left-project{
+.project{
     background-color: darkgreen;
-    width: 48%;
-    border-radius: 30px;
-}
-
-#right-project{
-    background-color: darkslategrey;
     width: 48%;
     border-radius: 30px;
 }
