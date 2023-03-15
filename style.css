@@ -148,7 +148,7 @@ main{
     background-color: tomato;
     width: 25vw;
     padding: 2vw;
-    border-radius: 30px;
+    border-radius: 20px;
 
 }
 
@@ -176,7 +176,7 @@ main{
     align-items: center;
     padding: 2vw;
     justify-content: space-between;
-    border-radius: 30px;
+    border-radius: 20px;
     margin-bottom: 2vw;
 }
 
@@ -202,7 +202,7 @@ main{
     font-size: 0.8rem;
     background-color: darkgreen;
     width: 48%;
-    border-radius: 30px;
+    border-radius: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -260,6 +260,12 @@ main{
 
 #recent-posts{
     background-color: darkviolet;
+    display: flex;
+    align-items: center;
+    padding: 2vw;
+    justify-content: space-between;
+    border-radius: 20px;
+    margin-bottom: 2vw;
 }
 
 /* style of posts */
