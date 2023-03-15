@@ -34,11 +34,12 @@ main{
     align-items: center;
     justify-content: center;
     text-align: center;
-    width: 35%;
-    height: 35%;
+    width: 25vw;
     border-radius: 20px;
-    margin-bottom: 3%;
-    padding: 3%;
+    margin-bottom: 2vw;
+    padding: 1vw;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
 }
 
 #container-profile{
@@ -46,6 +47,7 @@ main{
     flex-direction: column;
     margin-top: 5%;
     color: white;
+    gap: 0.5vw;
 }
 
 #container-profile h2{
@@ -66,19 +68,16 @@ main{
 
 #informations{
     box-sizing: border-box;
-    padding: 1%;
-    padding: 2%;
+    padding: 2vw;
     display: flex;
     justify-content: center;
     flex-direction: column;
     background-color: darkorchid;
     color: white;
-    width: 35%;
-    height: 40%;
+    width: 25vw;
     font-size: 0.8rem;
     border-radius: 20px;
-    padding-left: ;
-    margin-bottom: 3%;
+    margin-bottom: 2vw;
 }
 
 .links-info{
@@ -106,10 +105,9 @@ main{
 #technologies{
     box-sizing: border-box;
     background-color: teal;
-    width: 35%;
-    padding: 2%;
+    width: 25vw;
+    padding: 2vw;
     border-radius: 20px;
-    padding-top: 4%;
     margin-bottom: 3%;
 }
 
@@ -119,16 +117,15 @@ main{
     font-size: 0.8rem;
     justify-content: space-around;
     flex-wrap: wrap;
-    gap: 2%
+    gap: 1vw 0;
 }
 
 .content-technologies{
     text-align: center;
     width: 30%;
     padding: 1%;
-    margin-bottom: 3%;
+/*     margin-bottom: 3%; */
     border-radius: 20px;
-    overflow: hidden;
     background-color:coral;
 }
 
@@ -136,15 +133,11 @@ main{
     padding: 3%;
 }
 
-#experiences{
-background-color: silver;
-}
-
 #education{
     box-sizing: border-box;
     background-color: tomato;
-    width: 35%;
-    padding: 2%;
+    width: 25vw;
+    padding: 2vw;
     border-radius: 30px;
 
 }
