@@ -17,10 +17,16 @@ h2{
     font-size: 1.35rem;
 }
 
+#page-content{
+    display: flex;
+}
+
 body{
     display: flex;
     background-color: #22212C;
+    flex-direction: column;
 }
+
 
 aside{
     display: flex;
@@ -322,3 +328,13 @@ main{
     display: flex;
     gap: 2vw;
 }
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    background-color: #302F3D;
+    padding: 0.5vw 0;
+}
+
