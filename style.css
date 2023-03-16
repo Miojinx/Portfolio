@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: 'Merriweather Sans', sans-serif;
@@ -9,32 +9,32 @@
     color: #837E9F;
 }
 
-p, span{
+p, span {
     font-size: 0.8rem;
 }
 
-h2{
+h2 {
     font-size: 1.35rem;
 }
 
-body{
+body {
     display: flex;
     background-color: #22212C;
     flex-direction: column;
 }
 
-#page-content{
+#page-content {
     display: flex;
 }
 
-aside{
+aside {
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
     margin: 2vw 2vw 2vw 2vw;
 }
 
-main{
+main {
     flex-grow: 1;
     display: flex;
     flex-direction: column;
@@ -44,7 +44,7 @@ main{
 
 /* style of profile div */
 
-#profile{
+#profile {
     background-color: #302F3D;
     display: flex;
     flex-direction: column;
@@ -60,22 +60,22 @@ main{
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
-#container-profile{
+#container-profile {
     display: flex;
     flex-direction: column;
     margin-top: 5%;
     gap: 0.5vw;
 }
 
-#container-profile h2{
+#container-profile h2 {
     font-size: 1.35rem;
 }
 
-#container-profile p{
+#container-profile p {
     font-size: 0.8rem;
 }
 
-#erik-icon{
+#erik-icon {
     width: 10vw;
     border-radius: 50%;
     border: 1px solid #837E9F;
@@ -84,7 +84,7 @@ main{
 
 /* style of informations div */
 
-#informations{
+#informations {
     box-sizing: border-box;
     padding: 2vw;
     display: flex;
@@ -98,30 +98,31 @@ main{
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
-.links-info{
+.links-info {
     display: flex;
     padding: 3%;
     align-items: center;
-    
+
 }
 
-#informations a, #informations a:visited{
+#informations a, #informations a:visited {
+    font-size: 0.8rem;
     margin-left: 2%;
     transition: 0.3s;
     text-decoration: none;
 }
 
-.links-info span{
+.links-info span {
     margin-left: 2%;
 }
 
-.links-info a:hover{
+.links-info a:hover {
     opacity: 0.7;
 }
 
 /* style of technologies div */
 
-#technologies{
+#technologies {
     box-sizing: border-box;
     background-color: #302F3D;
     width: 25vw;
@@ -131,7 +132,7 @@ main{
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
-.container-technologies{
+.container-technologies {
     display: flex;
     padding: 3%;
     font-size: 0.8rem;
@@ -140,23 +141,23 @@ main{
     gap: 1vw 0;
 }
 
-.content-technologies{
+.content-technologies {
     text-align: center;
     width: 30%;
     padding: 1%;
-/*     margin-bottom: 3%; */
+    /*     margin-bottom: 3%; */
     border-radius: 20px;
-    background-color:#CB92B1;
+    background-color: #CB92B1;
 }
 
-.content-technologies p{
+.content-technologies p {
     padding: 3%;
     color: black;
 }
 
 /* style of education div */
 
-#education{
+#education {
     box-sizing: border-box;
     background-color: #302F3D;
     width: 25vw;
@@ -165,25 +166,26 @@ main{
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
-#education h2{
+#education h2 {
     margin-bottom: 2%;
 }
 
-#education ul{
+#education ul {
     padding-left: 10%;
 }
 
-#education li{
+#education li {
     margin-top: 2%;
+    font-size: 0.8rem;
 }
 
-#education p{
+#education p {
     font-size: 0.8rem;
 }
 
 /* style of project header */
 
-#my-projects{
+#my-projects {
     display: flex;
     background-color: #302F3D;
     align-items: center;
@@ -194,15 +196,15 @@ main{
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
-#my-projects h2{
+#my-projects h2 {
     font-size: 1.35rem;
 }
 
-#see-all{
+#see-all {
     font-size: 0.8rem;
 }
 
-#container-projects{
+#container-projects {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -210,7 +212,7 @@ main{
 
 /* style of projects */
 
-.project{
+.project {
     background-color: #302F3D;
     font-size: 0.8rem;
     width: 48%;
@@ -223,53 +225,54 @@ main{
     margin-bottom: 2vw;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
-.project a, .project a:visited{
+
+.project a, .project a:visited {
     margin-left: 0.5vw;
     font-size: 1.35rem;
     transition: 0.3s;
     text-decoration: none;
 }
 
-.project a:hover{
+.project a:hover {
     opacity: 0.7;
 }
 
-.title-project{
+.title-project {
     display: flex;
     align-items: center;
 }
 
-.bottom-of-project{
+.bottom-of-project {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.git-info-project{
+.git-info-project {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 0.5vw;
 }
 
-.main-language{
+.main-language {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 0.5vw;
 }
 
-.color-project{
+.color-project {
     background-color: aquamarine;
     width: 10px;
     height: 10px;
-    border: 1px  black;
+    border: 1px black;
     border-radius: 360px;
 }
 
 /* style of recent posts header */
 
-#recent-posts{
+#recent-posts {
     background-color: #302F3D;
     display: flex;
     align-items: center;
@@ -282,7 +285,8 @@ main{
 
 /* style of posts */
 
-#post{
+#post {
+
     background-color: #302F3D;
     display: flex;
     padding: 2vw;
@@ -291,44 +295,53 @@ main{
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
-#erik-icon-post{
+#img-post {
+    display: flex;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
     width: 10vw;
+    height: 10vw;
+}
+
+#erik-icon-post {
+    width: 100%;
     border-radius: 50%;
-    
+
     border: 1px solid #837E9F;
     padding: 5px;
 }
 
-#content-post{
+#content-post {
     margin-left: 2vw;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
-#content-title-post{
+#content-title-post {
     display: flex;
     flex-direction: column;
     justify-content: center;
     row-gap: 0.5vw;
 }
 
-#post-description{
+#post-description {
     display: flex;
     flex-direction: column;
     row-gap: 0.5vw;
 }
 
-#post-span-description{
+#post-span-description {
     font-size: 1.35rem;
 }
 
-#hashtags{
+#hashtags {
     display: flex;
     gap: 2vw;
 }
 
-footer{
+footer {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -336,3 +349,244 @@ footer{
     padding: 0.5vw 0;
 }
 
+@media (max-width:1100px) {
+    * {
+        font-size: 0.7rem;
+    }
+
+    li, a {
+        font-size: 0.7rem;
+    }
+}
+
+@media (max-width: 768px) {
+    * {
+        font-size: 0.6rem;
+    }
+
+    li, a {
+        font-size: 0.6rem;
+    }
+
+    .links-info img {
+        width: 10%;
+    }
+
+    .project img {
+        width: 9%;
+    }
+
+    .git-info-project {
+        width: 100%;
+        justify-content: flex-start;
+    }
+
+}
+
+@media (max-width: 610px) {
+    * {
+        font-size: 0.5rem;
+    }
+
+    li, a {
+        font-size: 0.5rem;
+    }
+
+    #erik-icon {
+        width: 9vw;
+    }
+
+    #img-post {
+        width: 9vw;
+        height: 9vw;
+    }
+}
+
+@media (max-width: 575px) {
+
+    * {
+        font-size: 0.4rem;
+    }
+
+    li, a {
+        font-size: 0.4rem;
+    }
+
+}
+
+@media (max-width: 530px) {
+    #page-content {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    * {
+        font-size: 0.8rem;
+    }
+
+    li, a {
+        font-size: 0.8rem;
+    }
+
+    aside{
+        margin-bottom: 0
+    }
+    main{
+        margin-top: 0;
+    }
+
+    #profile {
+        width: 80vw;
+        border-radius: 20px;
+        padding: 3vw;
+        margin-bottom: 4vw;
+    }
+
+    #erik-icon {
+        width: 15vw;
+        
+    }
+
+    #container-profile {
+        margin-top: 3%;
+        
+    }
+
+    #informations {
+        width: 80vw;
+        padding: 3vw;
+        margin-bottom: 4vw;
+    }
+
+    .links-info{
+        padding-left: 10%;
+    }
+
+    .links-info img {
+        width: 5%;
+    }
+
+    #technologies {
+        width: 80vw;
+        padding: 3vw;
+        margin-bottom: 4vw;
+    }
+
+    #education {
+        width: 80vw;
+        padding: 3vw;
+        margin-bottom: 4vw;
+    }
+
+    main {
+        align-items: center;
+        justify-content: center;
+    }
+
+    #my-projects {
+        width: 80vw;
+        border-radius: 15px;
+        padding: 3vw;
+        margin-bottom: 4vw;
+    }
+
+    .project{
+        padding: 3vw;
+        gap: 2vw 0;
+        margin-bottom: 4vw;
+    }
+
+    #container-projects {
+        width: 80vw;
+    }
+
+    #recent-posts {
+        width: 80vw;
+        border-radius: 15px;
+        margin-bottom: 4vw;
+    }
+
+    #post {
+        width: 80vw;
+    }
+
+    #content-title-post{
+        row-gap: 0;
+    }
+
+    #img-post{
+        width: 15vw;
+        height: 15vw;
+    }
+
+    #post-span-description {
+        font-size: 0.7rem;
+    }
+
+}
+
+@media (max-width: 400px){
+    * {
+        font-size: 0.7rem;
+    }
+
+    li, a {
+        font-size: 0.7rem;
+    }
+}
+
+@media (max-width: 360px){
+    * {
+        font-size: 0.6rem;
+    }
+
+    li, a {
+        font-size: 0.6rem;
+    }
+}
+
+@media (max-width: 360px){
+    * {
+        font-size: 0.6rem;
+    }
+
+    li, a {
+        font-size: 0.6rem;
+    }
+
+    #profile{
+        width: 90vw;
+    }
+
+    #informations{
+        width: 90vw;
+    }
+
+    #technologies{
+        width: 90vw;
+    }
+
+    #education{
+        width: 90vw;
+    }
+
+
+    #my-projects{
+        width: 90vw;
+        border-radius: 15px;
+    }
+
+    #container-projects{
+        width: 90vw;
+    }
+
+    #recent-posts{
+        width: 90vw;
+        border-radius: 13px;
+    }
+
+    #post{
+        width: 90vw;
+    }
+}
