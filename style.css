@@ -445,7 +445,6 @@ footer {
 
     #erik-icon {
         width: 15vw;
-        
     }
 
     #container-profile {
@@ -473,10 +472,18 @@ footer {
         margin-bottom: 4vw;
     }
 
+    #technologies h2{
+        padding-left: 2vw;
+    }
+
     #education {
         width: 80vw;
         padding: 3vw;
         margin-bottom: 4vw;
+    }
+
+    #education h2{
+        padding-left: 2vw;
     }
 
     main {
@@ -503,6 +510,7 @@ footer {
 
     #recent-posts {
         width: 80vw;
+        padding: 3vw;
         border-radius: 15px;
         margin-bottom: 4vw;
     }
