@@ -63,8 +63,7 @@ main{
 }
 
 #erik-icon{
-    object-fit:cover;
-    width: 40%;
+    width: 10vw;
     border-radius: 50%;
     border: 1px solid white;
     padding: 5px;
@@ -211,6 +210,7 @@ main{
     margin-bottom: 2vw;
 }
 .project a, .project a:visited{
+    margin-left: 0.5vw;
     font-size: 1.35rem;
     transition: 0.3s;
     text-decoration: none;
@@ -272,4 +272,14 @@ main{
 
 #post{
     background-color: darkslategrey;
+    display: flex;
+    padding: 2vw;
+    border-radius: 20px;
+}
+
+#erik-icon-post{
+    width: 10vw;
+    border-radius: 50%;
+    border: 1px solid white;
+    padding: 5px;
 }
