@@ -8,6 +8,14 @@
     font: 0.8rem;
 }
 
+p, span{
+    font-size: 0.8rem;
+}
+
+h2{
+    font-size: 1.35rem;
+}
+
 body{
     display: flex;
 }
@@ -275,6 +283,7 @@ main{
     display: flex;
     padding: 2vw;
     border-radius: 20px;
+    font-size: 0.8rem;
 }
 
 #erik-icon-post{
@@ -282,4 +291,28 @@ main{
     border-radius: 50%;
     border: 1px solid white;
     padding: 5px;
+}
+
+#content-post{
+    margin-left: 2vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#content-title-post{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 0.5vw;
+}
+
+#post-description{
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5vw;
+}
+
+#post-span-description{
+    font-size: 1.35rem;
 }
